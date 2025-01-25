@@ -1,5 +1,5 @@
 const events = process.env.EVENTS || 'false';
-const botname = process.env.BOTNAME || 'KEITH-MD';
+const botname = process.env.BOTNAME || '𝙈𝘼𝙍𝘾-𝙈𝘿';
 
 const Events = async (client, keizzah) => {
     const Myself = await client.decodeJid(client.user.id);
@@ -15,13 +15,13 @@ const Events = async (client, keizzah) => {
             try {
                 dpuser = await client.profilePictureUrl(num, "image");
             } catch {
-                dpuser = "https://i.imgur.com/iEWHnOH.jpeg";
+                dpuser = "https://i.imgur.com/m0NTPFI.jpeg";
             }
 
             if (keizzah.action == "add") {
                 let userName = num;
 
-                let Welcometext = ` Hey  @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nyou may read the group Description to avoid being removed  ${desc}\n\n*Regards keithkeizzah*.\n\nPowered by ${botname} .`;
+                let Welcometext = ` Hey  @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nyou may read the group Description to avoid being removed  ${desc}\n\n*Regards 𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮*.\n\nPowered by ${botname} .`;
                 if (events === 'true') {
                     await client.sendMessage(keizzah.id, {
                         image: { url: dpuser },
@@ -33,7 +33,7 @@ const Events = async (client, keizzah) => {
                 let userName2 = num;
 
                 let Lefttext = `
-          Goodbye to this idiot @${userName2.split("@")[0]} you will be highly remembered comrade`;
+          Goodbye to @${userName2.split("@")[0]} you will be highly remembered comrade`;
                 if (events === 'true') {
                     await client.sendMessage(keizzah.id, {
                         image: { url: dpuser },
