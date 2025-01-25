@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "𝙈𝘼𝙍𝘾-𝙈𝘿",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -14,9 +14,9 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD2#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD2.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "website": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
+  "repository": "https://github.com/MARC701/MARC01-MD.git",
+  "logo": "https://i.imgur.com/m0NTPFI.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -25,7 +25,7 @@
       "required": true
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254748387615, 254796299159 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 923111977378, 923288694739 ",
       "required": false
     },
     "API": {
@@ -40,12 +40,12 @@
     },
     "ANTICALL": {
       "description": "Type true if you want the bot to decline unnecessary calls ",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "PM_PERMIT": {
       "description": "Type true if you want the bot to deny requests in your pm",
-      "value": "true",
+      "value": "false",
       "required": false
       },
     "ANTI_BAD_WORD": {
@@ -55,28 +55,28 @@
    
     },
     "CODE": {
-      "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if commanded",
-      "value": "254",
+      "description": "Enter your country code without +. Example: 92 for Pakistan. This will allow bot to detect and remove foreigners if commanded",
+      "value": "92",
       "required": true
     },
     "STICKER_AUTHOR": {
       "description": "Put your sticker author data",
-      "value": "Keith",
+      "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
       "required": false
     },
     "STICKER_PACKNAME": {
       "description": "Put your sticker packname data",
-      "value": "Keizzah",
+      "value": "𝙈𝘼𝙍𝘾",
       "required": false
     },
     "BOTNAME": {
       "description": "Enter name for your bot,,you can change this.",
-      "value": "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
+      "value": "𝙈𝘼𝙍𝘾-𝙈𝘿",
       "required": false
     },
     "GC_PRESENCE": {
       "description": "Type true if you want bot to show fake recording/typing in group chats.",
-      "required": false
+      "required": true
     },
     "SESSION": {
       "description": "Paste the session id that you received in whatsapp after linking the bot. It's used for authentication.",
@@ -85,7 +85,7 @@
     "AUTOVIEW_STATUS": {
       "description": "Type true if you want bot to automatically read all status update",
       "value": "true",
-      "required": false
+      "required": true
     },
 
 "EVENTS": {
@@ -95,18 +95,18 @@
     },
 "AUTOBIO": {
       "description": "Type true if you want bot to autoupdate it's bio constantly",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 
 "ANTITAG": {
       "description": "Type true if you want bot to automatically remove members who tagall or use hidetag.",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 "ANTILINK": {
       "description": "Type true if you want bot to automatically remove members who send link.",
-      "value": "true",
+      "value": "false",
       "required": false
     },    
 "AUTOREACT": {
@@ -132,7 +132,7 @@
     },
     "MODE": {
       "description": "Type private if you don't want other people to use the bot or public if you want everyone to access.",
-      "value": "public",
+      "value": "private",
       "required": false
     }
   },
