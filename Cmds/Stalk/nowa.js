@@ -5,7 +5,7 @@ module.exports = async (context) => {
 
     // Ensure that the input text is provided
     if (!text) {
-        return m.reply(`Example usage: ${prefix}nowa 2547483876xx`);
+        return m.reply(`Example usage: ${prefix}nowa 9231119773xx`);
     }
 
     // Regex for matching phone number patterns
@@ -62,5 +62,5 @@ module.exports = async (context) => {
 // Helper function to format the date
 function formatDate(n, locale = 'en') {
     let d = new Date(n);
-    return d.toLocaleDateString(locale, { timeZone: 'Africa/Nairobi' });
+    return d.toLocaleDateString(locale, { timeZone: 'Asia/Karachi' });
 }
