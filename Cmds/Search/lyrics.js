@@ -26,7 +26,7 @@ module.exports = async (context) => {
     }
 
     const formattedMessage = `
-*KEITH-MD LYRICS FINDER*
+*𝙈𝘼𝙍𝘾-𝙈𝘿 LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
