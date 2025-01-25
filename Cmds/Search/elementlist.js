@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
 
   const messageCaption = `
- 𝐊𝐄𝐈𝐓𝐇-𝐌𝐃 𝐄𝐋𝐄𝐌𝐄𝐍𝐓 𝐋𝐈𝐒𝐓
+ 𝙈𝘼𝙍𝘾-𝙈𝘿 𝐄𝐋𝐄𝐌𝐄𝐍𝐓 𝐋𝐈𝐒𝐓
 
 1. Hydrogen (H)
 2. Helium (He)
@@ -124,12 +124,12 @@ module.exports = async (context) => {
 117. Tennessine (Ts)
 118. Oganesson (Og)
 
-*Regards keithkeizzah*
+*Regards 𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮*
   `;
 
   // Prepare the image URL
   const image = {
-    url: "https://files.catbox.moe/yldsxj.jpg"
+    url: "https://files.catbox.moe/j3j6pn.jpg"
   };
 
   // Prepare the message object
