@@ -30,7 +30,7 @@ module.exports = async (context) => {
         const timeZone = time_zones[0] || 'N/A';
 
         // Create the message
-        const message = `𝗞𝗘𝗜𝗧𝗛 𝗠𝗗 𝗡𝗨𝗠𝗕𝗘𝗥 𝗦𝗧𝗔𝗟𝗞\n\n*Carrier:* ${carrier}\n*Country:* ${country}\n*International Format:* ${international_format}\n*National Format:* ${national_format}\n*Line Type:* ${lineType}\n*Location:* ${location}\n*Time Zone:* ${timeZone}`;
+        const message = `𝙈𝘼𝙍𝘾-𝙈𝘿 𝗡𝗨𝗠𝗕𝗘𝗥 𝗦𝗧𝗔𝗟𝗞\n\n*Carrier:* ${carrier}\n*Country:* ${country}\n*International Format:* ${international_format}\n*National Format:* ${national_format}\n*Line Type:* ${lineType}\n*Location:* ${location}\n*Time Zone:* ${timeZone}`;
 
         // Send the message
         await client.sendMessage(m.chat, { text: message }, { quoted: m });
