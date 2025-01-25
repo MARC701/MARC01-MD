@@ -88,12 +88,12 @@ yi - Yiddish
 sq - Albanian  
 te - Telugu
 
-*Regards keithkeizzah*
+*Regards 𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮*
   `;
 
   // Prepare the image URL
   const image = {
-    url: "https://files.catbox.moe/yldsxj.jpg"
+    url: "https://files.catbox.moe/j3j6pn.jpg"
   };
 
   // Prepare the message object
