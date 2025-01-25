@@ -2,7 +2,7 @@
 <h1 align="center"> 𝙈𝘼𝙍𝘾-𝙈𝘿 </h1>
 
  
-<h1 align="center"> Surviving is winning frankline everything else is bullshit,fairy tales spun by people afraid to look life in the eye,do whatever it takes kid ,,survive 😏🙏
+<h1 align="center"> چراغ بجھنے سے انکار کر دے تو آندھیاں پسپاء ہو جاتی ہیں۔
 </h1>
 
 
