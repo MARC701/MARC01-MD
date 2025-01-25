@@ -95,7 +95,7 @@ async function startKeith() {
       const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: '```❗📵I AM KEITH MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+          text: '```❗📵I AM 𝙈𝘼𝙍𝘾-𝙈𝘿 | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
         });
         lastTextTime = currentTime;
       } else {
@@ -111,7 +111,7 @@ async function startKeith() {
         const mek = chatUpdate.messages[0];
         if (!mek || !mek.message) return;
 
-        const reactEmojis = ['✅', '♂️', '🎆', '🎇', '💧', '🌟', '🙆', '🙌', '👀', '👁️', '❤️‍🔥', '💗', '👽', '💫', '🔥', '💯', '💥', '😇', '😥', '😂', '👋'];
+        const reactEmojis = ['✅', '♂️', '🌟', '🙌', '❤️‍', '💗', '👽', '💫', '🔥', '💯', '💥', '😇', '👍'];
 
         if (!mek.key.fromMe && reactEmojis.length > 0) {
           const randomEmoji = reactEmojis[Math.floor(Math.random() * reactEmojis.length)];
@@ -133,7 +133,7 @@ async function startKeith() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi' })}.`
+        `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Asia/Karachi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Asia/Karachi' })}.`
       );
     }, 10 * 1000);
   }
@@ -147,7 +147,7 @@ async function startKeith() {
 
       if (autoview === 'true' && autolike === 'true' && mek.key && mek.key.remoteJid === "status@broadcast") {
         const keithlike = await client.decodeJid(client.user.id);
-        const emojis = ['😂', '😥', '😇', '🥹', '💥', '💯', '🔥', '💫', '👽', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🎇', '🎆', '♂️', '✅'];
+        const emojis = ['😇', '💥', '💯', '🔥', '💫', '👽', '💗', '❤️‍', '🙌', '🌟', '💧', '♂️', '✅'];
         const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
         const delayMessage = 3000;
         await client.sendMessage(mek.key.remoteJid, {
