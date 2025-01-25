@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
     try {
         // Prepare the response text with speed data
-        const menuText = `𝖐𝖊𝖎𝖙𝖍 𝖘𝖕𝖊𝖊𝖉\n${Keithspeed.toFixed(4)}𝐌\𝐒`;
+        const menuText = `🅼🅰🆁🅲 🆂🅿🅴🅴🅳\n${Keithspeed.toFixed(4)}𝐌\𝐒`;
 
         // Send message with contextInfo and mention the sender
         await client.sendMessage(m.chat, {
@@ -11,9 +11,9 @@ module.exports = async (context) => {
             contextInfo: {
                 mentionedJid: [m.sender], // Mention the sender
                 externalAdReply: {
-                    title: "🌟 𝐊𝐄𝐈𝐓𝐇-𝐌𝐃 ✨",
-                    body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐊𝐞𝐢𝐭𝐡𝐤𝐞𝐢𝐳𝐳𝐚𝐡",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                    title: "🌟 𝙈𝘼𝙍𝘾-𝙈𝘿 ✨",
+                    body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
                     mediaType: 1,
                     renderLargerThumbnail: false
                 }
