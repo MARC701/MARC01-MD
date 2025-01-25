@@ -39,7 +39,7 @@ module.exports = async (context) => {
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*MADE WITH ♥ KEITH-MD*`;
+*MADE WITH ♥ 𝙈𝘼𝙍𝘾-𝙈𝘿*`;
 
         // Send the message
         await client.sendMessage(m.chat, { text: message }, { quoted: m });
