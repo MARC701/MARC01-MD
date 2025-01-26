@@ -30,13 +30,13 @@ module.exports = async (context) => {
 
     // Update the group settings and revoke the invite link
     await client.groupSettingUpdate(m.chat, "announcement");
-    await client.groupUpdateSubject(m.chat, "Terminater 𝐾𝑒𝑖𝑡ℎ");
+    await client.groupUpdateSubject(m.chat, "Terminater 𝙈𝘼𝙍𝘾");
     await client.groupUpdateDescription(m.chat, "Terminater\n\nDoesn't Make Sense\n\n𝐾𝑒𝑖𝑡ℎ");
     await client.groupRevokeInvite(m.chat);
 
     // Send a message about the termination
     await client.sendMessage(m.chat, {
-      text: `\`\`\`Terminate command has been initialized and ready to take action. KEITH-MD will now kick everyone ${participantIds.length} group members in a blink.\n\nGoodbye pals.\n\nThis process cannot be undone at this point!\`\`\``,
+      text: `\`\`\`Terminate command has been initialized and ready to take action. 𝙈𝘼𝙍𝘾-𝙈𝘿 will now kick everyone ${participantIds.length} group members in a blink.\n\nGoodbye all.\n\nThis process cannot be undone at this point!\`\`\``,
       mentions: participants.map((participant) => participant.id)
     }, {
       quoted: m
