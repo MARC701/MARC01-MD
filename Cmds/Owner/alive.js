@@ -3,22 +3,16 @@ module.exports = async (context) => {
 
   // Sound file URLs
   const audioFiles = [
-    'https://files.catbox.moe/hpwsi2.mp3',
-    'https://files.catbox.moe/xci982.mp3',
-    'https://files.catbox.moe/utbujd.mp3',
-    'https://files.catbox.moe/w2j17k.m4a',
-    'https://files.catbox.moe/851skv.m4a',
-    'https://files.catbox.moe/qnhtbu.m4a',
-    'https://files.catbox.moe/lb0x7w.mp3',
-    'https://files.catbox.moe/efmcxm.mp3',
-    'https://files.catbox.moe/gco5bq.mp3',
-    'https://files.catbox.moe/26oeeh.mp3',
-    'https://files.catbox.moe/a1sh4u.mp3',
-    'https://files.catbox.moe/vuuvwn.m4a',
-    'https://files.catbox.moe/wx8q6h.mp3',
-    'https://files.catbox.moe/uj8fps.m4a',
-    'https://files.catbox.moe/dc88bx.m4a',
-    'https://files.catbox.moe/tn32z0.m4a'
+    'https://files.catbox.moe/m9nols.mp3',
+    'https://catbox.moe/6wiz8h.mp3',
+    'https://catbox.moe/ibylon.mp3',
+    'https://catbox.moe/zz58er.mp3',
+    'https://files.catbox.moe/tgjtmi.mp3',
+    'https://files.catbox.moe/eenv10.mp3',
+    'https://files.catbox.moe/8ceyna.mp3',
+    'https://files.catbox.moe/uuha0e.mp3',
+    'https://files.catbox.moe/107167.mp3',
+    'https://files.catbox.moe/3308e7.mp3'
   ];
 
   // Randomly pick an audio file
@@ -26,9 +20,9 @@ module.exports = async (context) => {
 
   // Other variables
   const name = m.pushName || client.getName(m.sender);
-  const url = 'https://github.com/Keithkeizzah/KEITH-MD2';
-  const murl = 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47';
-  const img = 'https://i.imgur.com/vTs9acV.jpeg';
+  const url = 'https://www.tiktok.com/@arslan_chaudary_701?_t=ZS-8tO52elZbyU&_r=1';
+  const murl = 'https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u';
+  const img = 'https://i.imgur.com/m0NTPFI.jpeg';
 
   // Constructing the contact message
   const con = {
@@ -57,8 +51,8 @@ module.exports = async (context) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
-        body: 'Regards Keithkeizzah',
+        title: '𝐇𝐞𝐲 𝐇𝐚𝐧𝐝𝐬𝐨𝐦𝐞!𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘',
+        body: 'Regards 𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮',
         thumbnailUrl: img,
         sourceUrl: murl,
         mediaType: 1,
