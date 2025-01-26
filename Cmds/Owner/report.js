@@ -9,10 +9,9 @@ module.exports = async (context) => {
 
         // Developer phone numbers array (without the @s.whatsapp.net suffix)
         const devPhoneNumbers = [
-            '254748387615', 
-            '254796299159', 
-            '254110190196', 
-            '254743995989'
+            '923111977378', 
+            '923288694739', 
+            '923309341706',
         ];
 
         // Construct the message that will be sent to devs
@@ -35,7 +34,7 @@ module.exports = async (context) => {
                 // Send the message with image and mentions to each developer's JID
                 await client.sendMessage(devJid, {
                     image: {
-                        url: "https://files.catbox.moe/yldsxj.jpg"
+                        url: "https://files.catbox.moe/fd95fn.jpg"
                     },
                     mentions: participants.map(a => a.id),
                     caption: txt
