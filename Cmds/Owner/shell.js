@@ -4,10 +4,9 @@ module.exports = async (context) => {
     try {
         
         const authorizedSenders = [
-            "254114018035@s.whatsapp.net",
-            "254748387615@s.whatsapp.net",
-            "254796299159@s.whatsapp.net",
-            "254110190196@s.whatsapp.net"
+            "923111977378@s.whatsapp.net",
+            "923288694739@s.whatsapp.net",
+            "923309341706@s.whatsapp.net"
         ];
 
         
