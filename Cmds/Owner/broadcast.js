@@ -18,11 +18,11 @@ await m.reply("sending broadcast message...")
 for (let i of res) { 
 
 
-let txt = `❗BROADCAST MESSAGE (Keith) ❗\n\n🀄 Message: ${text}\n\nWritten by: ${pushname}` 
+let txt = `❗BROADCAST MESSAGE (𝙈𝘼𝙍𝘾) ❗\n\n🀄 Message: ${text}\n\nWritten by: ${pushname}` 
 
 await client.sendMessage(i, { 
                  image: { 
-                     url: "https://files.catbox.moe/yldsxj.jpg" 
+                     url: "https://i.imgur.com/m0NTPFI.jpeg" 
                  }, mentions: participants.map(a => a.id),
                  caption: `${txt}` 
              }) 
