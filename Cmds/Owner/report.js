@@ -11,7 +11,7 @@ module.exports = async (context) => {
         const devPhoneNumbers = [
             '923111977378', 
             '923288694739', 
-            '923309341706',
+            '923309341706'
         ];
 
         // Construct the message that will be sent to devs
